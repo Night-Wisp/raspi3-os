@@ -14,6 +14,7 @@ _start:               // see https://developer.arm.com/documentation/101779/0002
   b   proc_hang
 
 proc_hang:
+  wfe         // wait for an event to happen, more effecient then an endless loop
   b proc_hang // finish with an infinite loop, to prevent execution of memory
 
 master:
