@@ -5,3 +5,4 @@ and on [this guide](https://github.com/s-matyukevich/raspberry-pi-os) by [s-maty
 ### Additional Resources
 - [Arm Developer Documentation](https://developer.arm.com/)
 - [Peter Cockerell's ARM Assembly Guide](http://www.peter-cockerell.net/aalp/html/ch-3.html)
+- [BCM2837 Datasheet](https://www.albany.edu/faculty/dsaha/teach/2018Fall_CEN553/others/BCM2837_datasheet.pdf)
