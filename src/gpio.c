@@ -3,7 +3,7 @@
 //#include "gpio.h"
 
 void init_gpio ( unsigned char pin , unsigned char func_sel ) {
-  unsigned long long selector_address;
+  unsigned long selector_address;
   switch(pin) { // find the proper GPIO function select address
     case 0:
     case 1:
