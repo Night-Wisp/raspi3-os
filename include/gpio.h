@@ -12,6 +12,6 @@
 
 void init_gpio ( unsigned char pin , unsigned char func_sel );
 unsigned char read_gpio ( unsigned char pin );
-void write_gpio ( unsigned char pin );
+void write_gpio ( unsigned char pin , unsigned char value );
 
 #endif /*_GPIO_H*/
